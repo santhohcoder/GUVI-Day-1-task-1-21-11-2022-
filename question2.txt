@@ -1,0 +1,24 @@
+Write a blog about objects and its internal representation in Javascript??
+
+Objects in javascript can be called as the combination of several primitive data type {number, String,integer..etc}and the referance data types {the object itself}
+To  Note the Object is always an referance data type only., which means that each time when we create an object an particular memory is alloted to it anf
+when we want to modify or refer we access it by the referance of the memory location.
+The NEW keyword is use to create an object
+The properties of an object can be referred using .(dot) operation.
+The object might contain several attributes whcih might be of any data type..
+
+For example we can create an object car with its attributes as given below..
+  var mycar=new Object()
+  mycar.name="ferari"
+  mycar.make="India"
+  mycar['name']="noname"
+
+  The object attributes are represented within array brackets if the attributes are of string type but starting with any special characters..
+  Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. 
+  You can define a property by assigning it a value.
+
+
+  One of easiest way to create a javascript object is object literal
+   simply define the property and values inside curly braces as shown below
+
+                  let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
